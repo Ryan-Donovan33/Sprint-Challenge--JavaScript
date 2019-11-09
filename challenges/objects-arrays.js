@@ -36,8 +36,8 @@ console.log(stegosaurus.length);
 console.log(tyrannosaurus.period);
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-tyrannosaurus.speak('RAWERSRARARWERSARARARRRR!');
-console.log(tyrannosaurus.speak);
+tyrannosaurus.roar('RAWERSRARARWERSARARARRRR!');
+console.log(tyrannosaurus.roar);
 
 // ==== Arrays ====
 
@@ -85,7 +85,9 @@ const graduates = [
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
 const universities = [];
-console.log(universities);
+graduates.forEach(function(universities) {
+	console.log(universities);
+});
 
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. This will be an array of strings.
 
