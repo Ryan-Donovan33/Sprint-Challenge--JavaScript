@@ -142,7 +142,6 @@ The zoos want to display both the scientific name and the animal name in front o
 
 */
 const displayNames = [];
-
 console.log(displayNames);
 
 /* Request 2: .map()
@@ -174,6 +173,15 @@ console.log(lowPopulationAnimals);
 The zoos need to know their total animal population across the United States. Find the total population from all the zoos using the .reduce() method. Remember the reduce method takes two arguments: a callback (which itself takes two args), and an initial value for the count.
 
 */
+function populationTotal(zooAnimals) {
+	const reduce = (accum, item) => {
+		return accum + item;
+	};
+	const cb = zooAnimals.reduce(reduce, 0);
+
+	return cb;
+}
+
 const populationTotal = 0;
 console.log(populationTotal);
 
