@@ -84,12 +84,10 @@ const graduates = [
 /* Request 1: Create a new array called universities that contains all the universities in the graduates array. This will be an array of strings.
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
-const universities = [];
-graduates.sort((a, b) => {
+const universities = graduates.sort((a, b) => {
 	if (a.university < b.university) {
 		return 1;
 	}
-	universities.push(graduates.university);
 });
 console.log(universities);
 
