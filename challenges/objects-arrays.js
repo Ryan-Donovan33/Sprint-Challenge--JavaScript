@@ -99,7 +99,7 @@ The resulting contact information strings should have a space between the first 
 Log the result of your new array. */
 const contactInfo = [];
 for (let i = 0; i < graduates.length; i++) {
-	let studentInfo = graduates[first_name];
+	let studentInfo = i;
 	contactInfo.push(studentInfo.email);
 }
 console.log(contactInfo);
