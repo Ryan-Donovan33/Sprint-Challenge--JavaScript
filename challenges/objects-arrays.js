@@ -36,8 +36,8 @@ console.log(stegosaurus.length);
 console.log(tyrannosaurus.period);
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-tyrannosaurus.roar('RAWERSRARARWERSARARARRRR!');
-console.log(tyrannosaurus.roar);
+tyrannosaurus.speak('RAWERSRARARWERSARARARRRR!');
+console.log(tyrannosaurus.speak);
 
 // ==== Arrays ====
 
@@ -102,7 +102,7 @@ Log the result of your new array. */
 const contactInfo = [];
 for (let i = 0; i < graduates.length; i++) {
 	let studentInfo = graduates[first_name];
-	constactInfo.push(studentInfo.email);
+	contactInfo.push(studentInfo.email);
 }
 console.log(contactInfo);
 
